@@ -1,5 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import dynamic from "next/dynamic";
+
+const MotionComponent = dynamic(() => import("framer-motion"), { ssr: false });
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

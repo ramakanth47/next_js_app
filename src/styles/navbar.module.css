@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space between brand and links */
+  align-items: center;
+  padding: 20px;
+  background-color: white;   
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  color: black; /* Gold color for the brand */
+  font-size: 36px;
+  margin-right: auto; /* Pushes links and button to the right */
+  width: 120px;
+  height: 50px;
+  background-color: gold;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around; /* Space between the links */
+  color: black;
+}
+
+.link {
+  color: black;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 180px;
+  text-decoration: none;
+}
+
+.contactButton {
+  background-color: black; /* Button background */
+  color: white; /* Button text color */
+  padding: 10px 15px; /* Button padding */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Transition for hover effect */
+  
+}
+
+.contactButton:hover {
+  background-color: #333; /* Darker on hover */
+}
